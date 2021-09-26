@@ -51,10 +51,9 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 * 内容分别如下: ( 把你的应用id改成你的应用id , 你的应用机密改成你的机密，单引号不要动 )
 
 CONFIG_ID
-
 id=r'你的应用id'
-CONFIG_KEY
 
+CONFIG_KEY
 secret=r'你的应用机密'
 
 
