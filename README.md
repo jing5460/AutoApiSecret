@@ -50,11 +50,17 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 * ![image](https://user-images.githubusercontent.com/38358681/134812903-e70bfcd9-8fad-4486-a05c-bc29b2a0e708.png)
 * 内容分别如下: ( 把你的应用id改成你的应用id , 你的应用机密改成你的机密，单引号不要动 )
 
-CONFIG_ID
-id=r'你的应用id'
+  CONFIG_ID
 
-CONFIG_KEY
-secret=r'你的应用机密'
+  ```shell
+  id=r'你的应用id'
+  ```
+
+  CONFIG_KEY
+
+  ```shell
+  secret=r'你的应用机密'
+  ```
 
 
 第四步，进入你的个人设置页面(右上角头像 Settings，不是仓库里的 Settings)，选择 Developer settings > Personal access tokens > Generate new token,
