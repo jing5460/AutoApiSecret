@@ -47,6 +47,8 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
     ![image](https://user-images.githubusercontent.com/38358681/133702570-3162f730-6461-4571-8a3a-1d6557a9d49d.png)
 
 * 第三步，依次点击上栏Setting > Secrets > Add a new secret，新建两个secret如图：CONFIG_ID、CONFIG_KEY。
+* ![image](https://user-images.githubusercontent.com/38358681/134812903-e70bfcd9-8fad-4486-a05c-bc29b2a0e708.png)
+
 * [portal.zaure.com](portal.zaure.com/#home)
 
 准备
