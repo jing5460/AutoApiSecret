@@ -33,7 +33,7 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 
    *** **有错误/问题请看**:    
 
-* 第一步，先大致浏览[portal.zaure.com/#home] (portal.zaure.com/#home)，了解如何获取应用id、机密、refresh_token 3样东西，以方便接下来的操作。
+* 第一步，先大致浏览[portal.zaure.com](portal.zaure.com/#home)，了解如何获取应用id、机密、refresh_token 3样东西，以方便接下来的操作。
 
 * 第二步，登陆/新建github账号，回到本项目页面，点击右上角fork本项目的代码到你自己的账号，然后你账号下会出现一个一模一样的项目，接下来的操作均在你的这个项目下进行。（看不到图片/图裂请科学上网）
 
@@ -47,7 +47,7 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
     ![image](https://user-images.githubusercontent.com/38358681/133702570-3162f730-6461-4571-8a3a-1d6557a9d49d.png)
 
 * 第三步，依次点击上栏Setting > Secrets > Add a new secret，新建两个secret如图：CONFIG_ID、CONFIG_KEY。
-* portal.zaure.com/#home
+* [portal.zaure.com](portal.zaure.com/#home)
 
   内容分别如下: ( 把你的应用id改成你的应用id , 你的应用机密改成你的机密，单引号不要动 )
   ![image](https://user-images.githubusercontent.com/38358681/133703066-fe22bf8a-0c13-4af2-a0e8-3f92080a3eee.png)
