@@ -87,17 +87,23 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 在上面操作中，“获取 api key” 第4步“重定向 URI (可选)”处，重定向url选web，填入 http://localhost:53682/ ，完成获取 api key 。
 
 在上面操作中，第6步配置API权限,依次点击添加权限、 Microsoft Graph 、委托的权限,然后依次搜索以下这12个权限并勾选（别忘记同时点击 “代表XX授予管理员同意”）:
-Files.Read.All、Files.ReadWrite.All、Sites.Read.All、Sites.ReadWrite.All、User.Read.All、User.ReadWrite.All、Directory.Read.All、Directory.ReadWrite.All、Mail.Read、Mail.ReadWrite、MailboxSettings.Read、MailboxSettings.ReadWrite
-
+```
+Files.Read.All、Files.ReadWrite.All、Sites.Read.All、Sites.ReadWrite.All、User.Read.All、User.ReadWrite.All、
+Directory.Read.All、Directory.ReadWrite.All、Mail.Read、Mail.ReadWrite、MailboxSettings.Read、MailboxSettings.ReadWrite
+```
 
 获取refresh_token
 Windows 下载 rclone （点击这里下载）,下载后不要双击 rclone.exe 安装！ 而是在rclone.exe同目录下,按住shift后点鼠标右键，选择在此处打开cmd窗口或在此处打开 power shell 窗口,弹出窗口后,CMD窗口就执行（请自行替换 client_id 和 client_secret 为你前面获取的值）:
+```
 rclone authorize "onedrive" "client_id" "client_secret"
+```
 Shell
 如果是power shell的窗口请执行:
-
+```
 .\rclone authorize "onedrive" "client_id" "client_secret"
-执行后电脑浏览器会弹出一个界面,登陆自己的e5账号,然后看到浏览器显示 Success!，说明获取token成功了。然后我们返回的cmd窗口或者power shell窗口，你会看到一大段 Paste the following into your remote machine ---> 开头 <---End paste 结尾的代码，找到 "refresh_token":" 复制后面的代码
+```
+执行后电脑浏览器会弹出一个界面,登陆自己的e5账号,然后看到浏览器显示 Success!，说明获取token成功了。
+然后我们返回的cmd窗口或者power shell窗口，你会看到一大段 Paste the following into your remote machine ---> 开头 <---End paste 结尾的代码，找到 "refresh_token":" 复制后面的代码
 
   内容分别如下: ( 把你的应用id改成你的应用id , 你的应用机密改成你的机密，单引号不要动 )
   ![image](https://user-images.githubusercontent.com/38358681/133703066-fe22bf8a-0c13-4af2-a0e8-3f92080a3eee.png)
