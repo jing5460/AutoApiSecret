@@ -4,10 +4,8 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 
 # 置顶 #
 
-* 本项目是建立在[原教程 **已失效**](https://blog.432100.xyz/index.php/archives/50/)可以正确调用api的**假设**上的，核心是paran/黑幕大佬的py脚本。
 * 本项目只是提供一个自动、免费、无需额外设备的脚本运行方式，换句话说，**借用github的电脑/服务器来干活**。（因为原教程需要服务器/超长时间运转的设备，大部分人都不具备，本项目应运而生）
 * 本项目运行依赖**github action**服务，此功能github固有而**非私人提供**的服务器，且整个运行过程只涉及你与github。
-* 请务必先阅读理解[原教程 **已失效**](https://blog.432100.xyz/index.php/archives/50/)的**原理说明、设计理念**。
 * **不保证一定能续期！不保证一定能续期！不保证一定能续期**！或者说，**只是增大续订可能性**。过期前、后30天都可能续期！！！
 * 若理解并接受上述说明，请接着操作；**若否，请点击浏览器右上角 X 。**
 
@@ -17,21 +15,6 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 * **免费，不需要额外设备/服务器**，部署完不用管啦。
 * 加密版，隐藏应用id+机密，保护账号安全。
 
-### 特别说明/Thanks ###
-
-* 原教程博主-黑幕（酷安id-Paran）**已失效**：https://blog.432100.xyz/index.php/archives/50/   
-
-* 普通版地址：**已失效** https://github.com/wangziyingwen/AutoApi
-
-* 加密版地址（推荐）：**已失效** https://github.com/wangziyingwen/AutoApiSecret
-
-* 模仿人为应用开发版（包含升级步骤）：**已失效** https://github.com/wangziyingwen/AutoApiSR
-
-* 超级版地址：**已失效** https://github.com/wangziyingwen/AutoApiS
-
-* **常见错误及解决办法/更新日志**：**已失效** https://github.com/wangziyingwen/Autoapi-test
-
-* 网页获取refresh_token小工具（不建议使用）：**已失效** https://github.com/wangziyingwen/GetAutoApiToken
 
 * 视频教程：（我操作很慢，自行倍速/快进）
 
@@ -41,16 +24,7 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 
     ​      
 
-### 区别 ###  已失效
-
-   [普通版（弃用）] **已失效** (https://github.com/wangziyingwen/AutoApi)：密钥暴露，不在乎的话可以使用
-
-   [加密版（推荐）]**已失效** (https://github.com/wangziyingwen/AutoApiSecret)：应用id机密加密隐藏，提高安全性
-
-   [模仿人为应用开发版（半弃用）]**已失效** (https://github.com/wangziyingwen/AutoApiSR)：顾名思义，加密版的升级版。由于超级版兼容模拟版的功能，此版本处于一种尴尬位置。（当然也可以正常使用）
-
-   [超级版（不建议）]**已失效** (https://github.com/wangziyingwen/AutoApiS)：进一步升级版，增加自定义参数、模式。按目前情况，微软续订要求很低，暂时不需要使用此项目。
-
+  
    **以上推荐/不建议等只是个人意见，请自行选择版本，可同时使用**。
 
 --------------------------------------------------------------
@@ -59,13 +33,12 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
 
    *** **有错误/问题请看**:    
 
-* 第一步，先大致浏览[原教程]**已失效** (https://blog.432100.xyz/index.php/archives/50/)，了解如何获取应用id、机密、refresh_token 3样东西，以方便接下来的操作。
+* 第一步，先大致浏览[portal.zaure.com/#home] (portal.zaure.com/#home)，了解如何获取应用id、机密、refresh_token 3样东西，以方便接下来的操作。
 
 * 第二步，登陆/新建github账号，回到本项目页面，点击右上角fork本项目的代码到你自己的账号，然后你账号下会出现一个一模一样的项目，接下来的操作均在你的这个项目下进行。（看不到图片/图裂请科学上网）
 
   ![image](https://user-images.githubusercontent.com/38358681/133702634-de33fef2-8324-418e-a939-eb3e9b6d6adf.png)
 
-* 根据[原教程]*已失效** (https://blog.432100.xyz/index.php/archives/50/)获取应用id、机密、refresh_token（自己复制保存，注意区分id机密，别弄混了）
 
   然后在线编辑你项目里的1.txt，将整个refresh_token覆盖粘贴进去（里面是我的数据，先删掉或者覆盖掉）。（千万不要改1.py）
 
@@ -74,6 +47,7 @@ AutoApi系列：AutoApi、AutoApiSecret、AutoApiSR、AutoApiS
     ![image](https://user-images.githubusercontent.com/38358681/133702570-3162f730-6461-4571-8a3a-1d6557a9d49d.png)
 
 * 第三步，依次点击上栏Setting > Secrets > Add a new secret，新建两个secret如图：CONFIG_ID、CONFIG_KEY。
+* portal.zaure.com/#home
 
   内容分别如下: ( 把你的应用id改成你的应用id , 你的应用机密改成你的机密，单引号不要动 )
   ![image](https://user-images.githubusercontent.com/38358681/133703066-fe22bf8a-0c13-4af2-a0e8-3f92080a3eee.png)
